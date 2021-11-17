@@ -24,7 +24,7 @@ class Result
 
     public static int factorial(int n)
     { 
-       int result = 1;
+        int result = 1;
         for(var i = n; i>0 ; i--){
             result = result*i;
         }
